@@ -13,3 +13,12 @@ RESET
 
 --- HEAD al commit anterior
 git reset --hard HEAD~1
+
+reset --soft //borra HEAD
+reset --mixed //borra HEAD y staging (undo add)
+reset --hard //borra HEAD y staging y working directory
+
+REBASE interactive
+
+git rebase -i HEAD~N
+
