@@ -4,7 +4,7 @@ Cambiando master a main luego de haber inicializado
 git branch -m master main
 
 #2 - pushear la nueva rama
-    // -u :  --setup-upsetream (??)
+    // -u :  --setup-upsetream (rama análoga en el remoto)
 git push -u origin main
 
 #3 - cambiar el HEAD actual a la rama main
