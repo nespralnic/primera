@@ -8,3 +8,8 @@ or
 
 git commit --amend -m "new message"
 
+
+RESET
+
+--- HEAD al commit anterior
+git reset --hard HEAD~1
