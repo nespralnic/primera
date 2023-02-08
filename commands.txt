@@ -1,0 +1,10 @@
+
+AMEND
+--- Slight correction --- overwrites last commit
+
+git commit --amend --no-edit
+
+or
+
+git commit --amend -m "new message"
+
