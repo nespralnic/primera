@@ -1,0 +1,16 @@
+Cambiando master a main luego de haber inicializado
+
+#1 - crear rama main donde copiar historial de rama master
+git branch -m master main
+
+#2 - pushear la nueva rama
+    // -u :  --setup-upsetream (??)
+git push -u origin main
+
+#3 - cambiar el HEAD actual a la rama main
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+#4 - cambiar la default branch en github -> settings
+
+#5 - borrar la rama master en el remoto
+git push origin --delete master
