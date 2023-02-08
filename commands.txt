@@ -22,3 +22,11 @@ REBASE interactive
 
 git rebase -i HEAD~N
 
+2 steps
+-edit first wich files will pick and wich to squash (first one should remain as pick)
+-edit commit message
+
+REMOTE
+
+git remote remove Branch_name
+git remote rename old_name new_name
